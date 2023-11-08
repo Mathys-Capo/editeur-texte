@@ -44,4 +44,8 @@ public class Document {
         remplacer(start,start,texte);
     }
 
+    public void minuscules(int start, int end) {
+        String leftPart = texte.substring(start,end);
+        remplacer(start,end,leftPart.toLowerCase());
+    }
 }
