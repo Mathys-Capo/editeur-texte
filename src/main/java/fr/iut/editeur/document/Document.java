@@ -37,7 +37,7 @@ public class Document {
     public void effacer(int start, int end) {
         remplacer(start,end,"");
     }public void clear() {
-        texte=".";
+        texte="";
     }
 
     public void inserer(int start,String texte){

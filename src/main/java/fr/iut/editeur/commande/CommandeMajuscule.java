@@ -16,5 +16,8 @@ public class CommandeMajuscule extends CommandeDocument {
         this.document.majuscules(Integer.parseInt(parameters[1]),Integer.parseInt(parameters[2]));
         super.executer();
     }
-
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("Sert à mettre un morceau de texte en majuscule -> Format attendu : majuscule;start;end");
+    }
 }

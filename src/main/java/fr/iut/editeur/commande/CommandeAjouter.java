@@ -20,4 +20,8 @@ public class CommandeAjouter extends CommandeDocument {
         super.executer();
     }
 
+    @Override
+    public void getDescriptionCommande() {
+        System.out.println("Sert à ajouter du texte à la suite du texte déjà existant -> Format attendu : ajouter;texte");
+    }
 }
