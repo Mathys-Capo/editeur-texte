@@ -39,4 +39,9 @@ public class Document {
     }public void clear() {
         texte=".";
     }
+
+    public void inserer(int start,String texte){
+        remplacer(start,start,texte);
+    }
+
 }
