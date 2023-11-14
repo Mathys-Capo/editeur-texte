@@ -9,6 +9,11 @@ public class CommandeInserer extends CommandeDocument{
     }
 
     @Override
+    public void getDescriptionCommande() {
+
+    }
+
+    @Override
     public void executer() {
         if(parameters.length < 3) {
             System.err.println("Format attendu : inserer;start;texte");
